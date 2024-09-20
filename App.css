@@ -1,0 +1,1048 @@
+/* 숨겨진 div */
+#root {
+  overflow: hidden;
+}
+
+.antialiased {
+  text-rendering: optimizeLegibility; /* 안티앨리어싱 활성화 */
+}
+
+.react-pdf__Page__annotations {
+  display: none;
+}
+
+.react-pdf__Document {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased; /* Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale; /* Firefox */
+  text-rendering: optimizeLegibility; /* 텍스트를 가장 선명하게 렌더링 */
+}
+.react-transform-wrapper {
+  width: 100% !important;
+  height: 100% !important;
+}
+.react-transform-component {
+  width: 100% !important;
+  height: 140% !important;
+}
+.mobile {
+  width: 100% !important;
+  height: 100% !important;
+}
+.pc {
+  width: 100% !important;
+  height: 140% !important;
+}
+.react-pdf__Page__canvas {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.19);
+}
+.page-2-only.hidden {
+  display: none;
+}
+.page-3-only-m.hidden,
+.page-17-only-m.hidden {
+  display: none;
+}
+.page-3-only.hidden {
+  display: none;
+}
+.page-37-only.hidden,
+.page-39-only.hidden,
+.page-41-only.hidden,
+.page-43-only.hidden,
+.page-45-only.hidden,
+.page-47-only.hidden,
+.page-49-only.hidden,
+.page-51-only.hidden,
+.page-53-only.hidden,
+.page-55-only.hidden,
+.page-57-only.hidden,
+.page-59-only.hidden,
+.page-61-only.hidden,
+.page-63-only.hidden,
+.page-65-only.hidden,
+.page-67-only.hidden,
+.page-69-only.hidden,
+.page-71-only.hidden {
+  display: none;
+}
+.react-pdf__Thumbnail {
+  display: flex;
+  width: fit-content;
+}
+
+/* 모바일 인덱스 링크 박스 */
+.page-2-only.visible,
+.page-3-only-m.visible,
+.page-3-only.visible,
+.page-3-only-r.visible,
+.page-17-only-m.visible,
+.page-24-only-m.visible,
+.page-25-only-m.visible {
+  cursor: pointer;
+}
+.page-2-only.visible.one {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 33%;
+  left: 5%;
+}
+.page-2-only.visible.two {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 37%;
+  left: 5%;
+}
+.page-2-only.visible.three {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 40%;
+  left: 5%;
+}
+.page-2-only.visible.four {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 36%;
+  left: 55%;
+}
+
+.page-2-only.visible.five {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 44%;
+  left: 55%;
+}
+
+.page-2-only.visible.six {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 51.5%;
+  left: 55%;
+}
+
+.page-2-only.visible.seven {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 54%;
+  left: 55%;
+}
+
+.page-2-only.visible.eight {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 57.5%;
+  left: 55%;
+}
+
+.page-2-only.visible.nine {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 60%;
+  left: 55%;
+}
+
+.page-2-only.visible.ten {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 62.5%;
+  left: 55%;
+}
+
+.page-2-only.visible.ten-one {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 65%;
+  left: 55%;
+}
+
+.page-2-only.visible.ten-two {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 68%;
+  left: 55%;
+}
+
+.page-2-only.visible.ten-three {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 71%;
+  left: 55%;
+}
+
+.page-2-only.visible.ten-four {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 73.5%;
+  left: 55%;
+}
+.page-2-only.visible.ten-five {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 76%;
+  left: 55%;
+}
+.page-2-only.visible.ten-six {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 78.5%;
+  left: 55%;
+}
+.page-2-only.visible.ten-seven {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 80.8%;
+  left: 55%;
+}
+.page-2-only.visible.ten-eight {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 83.3%;
+  left: 55%;
+}
+.page-2-only.visible.ten-nine {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 85.5%;
+  left: 55%;
+}
+
+.page-3-only-m.visible.one {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 36%;
+  left: 5%;
+}
+.page-3-only-m.visible.two {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 38.5%;
+  left: 5%;
+}
+.page-3-only-m.visible.three {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 41%;
+  left: 5%;
+}
+.page-3-only-m.visible.four {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 43.5%;
+  left: 5%;
+}
+
+.page-3-only-m.visible.five {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 46%;
+  left: 5%;
+}
+
+.page-3-only-m.visible.six {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 54.5%;
+  left: 5%;
+}
+
+.page-3-only-m.visible.seven {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 62%;
+  left: 5%;
+}
+
+.page-3-only-m.visible.eight {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 64.5%;
+  left: 5%;
+}
+
+.page-3-only-m.visible.nine {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 67%;
+  left: 5%;
+}
+
+.page-3-only-m.visible.ten {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 69.5%;
+  left: 5%;
+}
+
+.page-3-only-m.visible.ten-one {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 77.3%;
+  left: 5%;
+}
+
+.page-3-only-m.visible.ten-two {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 63%;
+  left: 55%;
+}
+
+.page-3-only-m.visible.ten-three {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 65.3%;
+  left: 55%;
+}
+
+.page-3-only-m.visible.ten-four {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 73.4%;
+  left: 55%;
+}
+.page-3-only-m.visible.ten-five {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 75.5%;
+  left: 55%;
+}
+.page-3-only-m.visible.ten-six {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 83.5%;
+  left: 55%;
+}
+.page-3-only-m.visible.ten-seven {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 86%;
+  left: 55%;
+}
+.page-3-only-m.visible.ten-eight {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 12px;
+  top: 88.5%;
+  left: 55%;
+}
+.page-17-only-m.visible.seventeen-one {
+  display: block;
+  position: absolute;
+  width: 13%;
+  height: 2%;
+  top: 41%;
+  right: 13%;
+}
+.page-17-only-m.visible.seventeen-two {
+  display: block;
+  position: absolute;
+  width: 10%;
+  height: 2%;
+  top: 76%;
+  right: 42%;
+}
+.page-17-only-m.visible.seventeen-three {
+  display: block;
+  position: absolute;
+  width: 11%;
+  height: 2%;
+  top: 80.5%;
+  right: 46%;
+}
+.page-24-only-m.visible.twofour-one {
+  display: block;
+  position: absolute;
+  width: 13%;
+  height: 2%;
+  top: 21.5%;
+  right: 55%;
+}
+.page-24-only-m.visible.twofour-two {
+  display: block;
+  position: absolute;
+  width: 18%;
+  height: 4%;
+  top: 32%;
+  right: 59%;
+}
+.page-24-only-m.visible.twofour-three {
+  display: block;
+  position: absolute;
+  width: 17%;
+  height: 2%;
+  top: 45.9%;
+  right: 70%;
+}
+.page-24-only-m.visible.twofour-four {
+  display: block;
+  position: absolute;
+  width: 18%;
+  height: 4%;
+  top: 52.5%;
+  right: 72%;
+}
+.page-24-only-m.visible.twofour-five {
+  display: block;
+  position: absolute;
+  width: 18%;
+  height: 4%;
+  top: 60%;
+  right: 77%;
+}
+.page-24-only-m.visible.twofour-six {
+  display: block;
+  position: absolute;
+  width: 22%;
+  height: 5%;
+  top: 80%;
+  right: 39%;
+}
+
+/* 피씨 인덱스 링크 박스 */
+.page-3-only.visible.one {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 33%;
+  left: 5%;
+}
+
+.page-3-only.visible.two {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 36.5%;
+  left: 5%;
+}
+
+.page-3-only.visible.three {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 40.2%;
+  left: 5%;
+}
+
+.page-3-only.visible.four {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 36%;
+  left: 55%;
+}
+.page-3-only.visible.five {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 43.7%;
+  left: 55%;
+}
+
+.page-3-only.visible.six {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 51.5%;
+  left: 55%;
+}
+
+.page-3-only.visible.seven {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 54.5%;
+  left: 55%;
+}
+.page-3-only.visible.eight {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 57.5%;
+  left: 55%;
+}
+.page-3-only.visible.nine {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 60%;
+  left: 55%;
+}
+.page-3-only.visible.ten {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 62.5%;
+  left: 55%;
+}
+.page-3-only.visible.ten-one {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 64.8%;
+  left: 55%;
+}
+.page-3-only.visible.ten-two {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 68%;
+  left: 55%;
+}
+.page-3-only.visible.ten-three {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 71%;
+  left: 55%;
+}
+.page-3-only.visible.ten-four {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 73.5%;
+  left: 55%;
+}
+.page-3-only.visible.ten-five {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 76%;
+  left: 55%;
+}
+.page-3-only.visible.ten-six {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 78.5%;
+  left: 55%;
+}
+.page-3-only.visible.ten-seven {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 81%;
+  left: 55%;
+}
+.page-3-only.visible.ten-eight {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 83.5%;
+  left: 55%;
+}
+.page-3-only.visible.ten-nine {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 85.5%;
+  left: 55%;
+}
+
+/* 오른쪽페이지 */
+.page-3-only-r.visible.one {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 36%;
+  left: 5%;
+}
+
+.page-3-only-r.visible.two {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 38.5%;
+  left: 5%;
+}
+
+.page-3-only-r.visible.three {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 41%;
+  left: 5%;
+}
+
+.page-3-only-r.visible.four {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 43.5%;
+  left: 5%;
+}
+.page-3-only-r.visible.five {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 46%;
+  left: 5%;
+}
+
+.page-3-only-r.visible.six {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 54.5%;
+  left: 5%;
+}
+
+.page-3-only-r.visible.seven {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 62.3%;
+  left: 5%;
+}
+.page-3-only-r.visible.eight {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 64.3%;
+  left: 5%;
+}
+.page-3-only-r.visible.nine {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 67.3%;
+  left: 5%;
+}
+.page-3-only-r.visible.ten {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 69.5%;
+  left: 5%;
+}
+.page-3-only-r.visible.ten-one {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 77.5%;
+  left: 5%;
+}
+.page-3-only-r.visible.ten-two {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 63%;
+  left: 55%;
+}
+.page-3-only-r.visible.ten-three {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 65.5%;
+  left: 55%;
+}
+.page-3-only-r.visible.ten-four {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 73.5%;
+  left: 55%;
+}
+.page-3-only-r.visible.ten-five {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 76%;
+  left: 55%;
+}
+.page-3-only-r.visible.ten-six {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 83.6%;
+  left: 55%;
+}
+.page-3-only-r.visible.ten-seven {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 86%;
+  left: 55%;
+}
+.page-3-only-r.visible.ten-eight {
+  display: block;
+  position: absolute;
+  width: 40%;
+  height: 10px;
+  top: 88.5%;
+  left: 55%;
+}
+
+.page-25-only.visible.twofive-one {
+  display: block;
+  position: absolute;
+  width: 13%;
+  height: 2%;
+  top: 21.5%;
+  right: 55%;
+  cursor: pointer;
+}
+.page-25-only-m.visible.twofive-two {
+  display: block;
+  position: absolute;
+  width: 18%;
+  height: 4%;
+  top: 32%;
+  right: 59%;
+}
+.page-25-only-m.visible.twofive-three {
+  display: block;
+  position: absolute;
+  width: 17%;
+  height: 2%;
+  top: 45.9%;
+  right: 70%;
+}
+.page-25-only-m.visible.twofive-four {
+  display: block;
+  position: absolute;
+  width: 18%;
+  height: 4%;
+  top: 52.5%;
+  right: 72%;
+}
+.page-25-only-m.visible.twofive-five {
+  display: block;
+  position: absolute;
+  width: 18%;
+  height: 4%;
+  top: 60%;
+  right: 77%;
+}
+.page-25-only-m.visible.twofive-six {
+  display: block;
+  position: absolute;
+  width: 22%;
+  height: 5%;
+  top: 80%;
+  right: 39%;
+}
+/* 비디오 */
+.page-37-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 38.5%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.page-39-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 40.5%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.page-41-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 44.5%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.page-43-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 48%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.page-45-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 50%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.page-47-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 37.5%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.page-49-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 45.8%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.page-51-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 46%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.page-53-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 46.5%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.page-55-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 46.5%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.page-57-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 49%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.page-59-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 45.5%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.page-61-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 45%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.page-63-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 46%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.page-65-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 46%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.page-67-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 49.5%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.page-69-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 49.5%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.page-71-only.visible.video {
+  display: block;
+  position: absolute;
+  width: 33%;
+  height: 13%;
+  top: 49.5%;
+  right: 6%;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.page-37-only.visible.video:hover,
+.page-39-only.visible.video:hover,
+.page-41-only.visible.video:hover,
+.page-43-only.visible.video:hover,
+.page-45-only.visible.video:hover,
+.page-47-only.visible.video:hover,
+.page-49-only.visible.video:hover,
+.page-51-only.visible.video:hover,
+.page-53-only.visible.video:hover,
+.page-55-only.visible.video:hover,
+.page-57-only.visible.video:hover,
+.page-59-only.visible.video:hover,
+.page-61-only.visible.video:hover,
+.page-63-only.visible.video:hover,
+.page-65-only.visible.video:hover,
+.page-67-only.visible.video:hover,
+.page-69-only.visible.video:hover,
+.page-71-only.visible.video:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
