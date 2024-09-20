@@ -5,7 +5,7 @@ import { pdfjs, Document, Page } from "react-pdf";
 import pcPDF from "./mempro_catalog_NEW.pdf";
 import mobilePDF from "./mempro_catalog_OUT.pdf";
 import Controller from "./Controller";
-import ThumbnailBox from "./Thumbnail";
+import ThumbnailBox from "../Thumbnail";
 import { useRecoilValue, useSetRecoilState } from "recoil";
 import { numPagesState, showThumbnailState } from "./atoms";
 import Nav from "./Nav";
